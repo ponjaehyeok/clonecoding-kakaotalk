@@ -3,6 +3,9 @@
     justify-content: center;
     padding: 5px 3px;
     font-size: 13px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .status-bar__column {
