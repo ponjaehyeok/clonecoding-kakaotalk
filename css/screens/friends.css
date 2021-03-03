@@ -16,6 +16,12 @@
     opacity: 90%;
 }
 
-.friends-profiles {
-    padding: 5px 17px 0 17px;
+.friends-screen {
+    padding: 9px var(--horizantal-space) 0;
+}
+
+.friends-screen__channel {
+    margin-top: 15px;
+    border-top: 1px solid rgba(0,0,0,.1);
+    height: 100px;
 }

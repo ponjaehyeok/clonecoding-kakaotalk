@@ -9,7 +9,7 @@
 .screen-header__title {
     font-size: 23px;
     font-weight: 600;
-    padding-left: 20px;
+    padding-left: var(--horizantal-space);
 }
 
 .screen-header__icons {
