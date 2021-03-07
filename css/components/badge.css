@@ -1,0 +1,17 @@
+.badge {
+    color: #ffffff;
+    width: 16px;
+    height: 16px;
+    background-color: rgba(255,99,71,1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    z-index: 1;
+}
+
+.badge-lg {
+    width: 20px;
+    height: 20px;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kakaotalk - Friedns</title>
+    <title>Kakaotalk - Chats</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -24,10 +24,13 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <ul class="screen-header__icons">
         <li>
           <a href="#"><i class="fas fa-search fa-lg"></i></a>
+        </li>
+        <li>
+          <i class="far fa-comment-dots fa-lg"></i>
         </li>
         <li>
           <a href="#"><i class="fas fa-music fa-lg"></i></a>
@@ -38,51 +41,24 @@
       </ul>
     </header>
 
-    <a href="#" id="friends-info">
-      <i class="fas fa-info-circle fa-lg"></i>
-      <span>Friends' Names Display</span>
-      <i class="fas fa-chevron-right"></i>
-    </a>
-
-    <main class="friends-screen">
+    <main class="main-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
             src="img/baby-rr2.png"
             alt="avatar"
-            class="user-component__avatar user-component__avatar-xl"
+            class="user-component__avatar user-component__avatar"
           />
           <div class="user-component__text">
-            <h4 class="user-component__title-bold">Nicholas</h4>
-            <!-- <h6 class="user-component__subtitle">text whatever</h6> -->
+            <h4 class="user-component__title-bold">KakaoTalk</h4>
+            <h6 class="user-component__subtitle">
+              Please check My Kakao Account info
+            </h6>
           </div>
         </div>
-        <div class="user-component__column"></div>
-      </div>
-
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up"></i>
-        </div>
-
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="img/baby-rr2.png"
-              alt="avatar"
-              class="user-component__avatar user-component__avatar-sm"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title-normal">Channel</h4>
-            </div>
-          </div>
-          <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fas fa-chevron-right"></i>
-            </div>
-          </div>
+        <div class="user-component__column">
+          <span class="user-component__time">21:22</span>
+          <div class="badge badge-lg">1</div>
         </div>
       </div>
     </main>
@@ -91,13 +67,13 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html">
-            <i class="fas fa-user fa-lg"></i>
+            <i class="far fa-user fa-lg"></i>
           </a>
         </li>
         <li class="nav__btn">
           <span class="nav__notification badge">1</span>
           <a class="nav__link" href="chats.html">
-            <i class="far fa-comment fa-lg"></i>
+            <i class="fas fa-comment fa-lg"></i>
           </a>
         </li>
         <li class="nav__btn">

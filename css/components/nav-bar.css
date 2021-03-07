@@ -16,19 +16,9 @@
 }
 
 .nav__notification {
-    color: #fff;
-    width: 16px;
-    height: 16px;
-    background-color: rgba(255,99,71,1);
-    border-radius: 50%;
     position: absolute;
     top: -9px;
     right: -8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 11px;
-    z-index: 1;
 }
 
 .nav__dot {

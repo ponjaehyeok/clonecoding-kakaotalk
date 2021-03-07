@@ -8,6 +8,7 @@
 @import "components/nav-bar.css ";
 @import "components/screen-header.css";
 @import "components/user-component.css";
+@import "components/badge.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -25,4 +26,8 @@ input:focus {
 a {
 	color: #000;
 	text-decoration: none;
+}
+
+.main-screen {
+	padding: 5px var(--horizantal-space) 0px;
 }
