@@ -9,11 +9,13 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/icon-row.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
+@import "screens/more.css";
 
 body {
     font-family: "Open Sans", sans-serif;
@@ -37,4 +39,18 @@ a {
 	width: 1px;
 	height: 15px;
 	background-color: rgba(0, 0, 0, .6);
+}
+
+.warnig-icon {
+	width: 13px;
+	height: 13px;
+	border-radius: 50%;
+	color: rgb(248, 32, 32);
+	border: 1.2px solid rgb(248, 32, 32);
+	font-size: 9px;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 5px;
 }

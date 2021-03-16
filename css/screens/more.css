@@ -1,0 +1,27 @@
+.more-screen .icon-row:nth-child(3) {
+    padding-bottom: 50px;
+    border-bottom: var(--mild-border);
+}
+
+.more-screen .icon-row__icon {
+    margin: 15px 0 40px;
+    height: 30px;
+}
+
+.more-screen .icon-row__icon i {
+    font-size: 32px;
+    margin-bottom: 13px;
+}
+
+.more-screen .icon-row__icon span {
+    font-size: 13px;
+}
+
+.suggestions__title {
+    font-size: 14px;
+    margin-top: 17px;
+}
+
+.suggestions .icon-row__icon span {
+    color: var(--mild-color);
+}
