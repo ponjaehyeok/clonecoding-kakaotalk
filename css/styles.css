@@ -13,6 +13,7 @@
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 
 body {
     font-family: "Open Sans", sans-serif;
@@ -30,4 +31,10 @@ a {
 
 .main-screen {
 	padding: 5px var(--horizantal-space) 0px;
+}
+
+.divider {
+	width: 1px;
+	height: 15px;
+	background-color: rgba(0, 0, 0, .6);
 }

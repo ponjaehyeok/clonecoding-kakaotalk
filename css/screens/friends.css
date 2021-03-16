@@ -22,13 +22,13 @@
 
 .friends-screen__channel {
     margin-top: 15px;
-    border-top: 1px solid rgba(0,0,0,.1);
+    border-top: var(--mild-border);
     height: 100px;
 }
 
 .friends-screen__channel-header {
     font-size: 13px;
-    color: rgba(0,0,0,.4);
+    color: var(--mild-color);
     padding: 10px 0 16px;
     display: flex;
     justify-content: space-between;

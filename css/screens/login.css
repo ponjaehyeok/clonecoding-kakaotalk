@@ -15,7 +15,7 @@
 .welcome-header__text {
     font-size: 14px;
     width: 80%;
-    opacity: .7;
+    color: var(--mild-color);
 }
 
 #login-form {
@@ -44,7 +44,7 @@
 }
 
 #login-form input::placeholder {
-    color:rgba(0,0,0,.4);
+    color:var(--mild-color);
 }
 
 #login-form input:focus {
